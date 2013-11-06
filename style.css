@@ -1,0 +1,108 @@
+
+html {
+	background: url(http://theblackpoolgroup.com/wp-content/uploads/2012/12/photodune-3808418-san-francisco-m.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+body {
+	/*background-color: rgb(136, 136, 136);*/
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-top: 0;
+	height: 100%;
+}
+
+#nav_bar {
+	background-color: #323136;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0;
+}
+
+#home {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 40px;
+	display: inline;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#menu {
+	list-style-type: none;
+	display: inline;
+}
+li {
+	font-family: 'Open Sans', sans-serif;
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 35px;
+}
+
+#links {
+	display: inline;
+}
+
+#links a {
+	margin-right: 15px;
+}
+
+#linkedin {
+	position: relative;
+	top: -8px;
+}
+
+.intro {
+	position: absolute;
+	top: 300px;
+	left: 275px;
+	width: 75%;
+	margin-top: 10px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	background: rgba(0, 0, 0, 0.7);	
+}
+
+#hi {
+	color: #455EC0;
+	font-size: 65px;
+	width: 380px;
+	margin-bottom: -30px;
+}
+#hi p {
+	font-family: 'Lato', sans-serif;
+}
+
+#traits {
+	color: #4ecc40;
+	font-size: 32px;
+	width: 670px;
+}
+
+#code {
+	color: #cc404e;
+	font-size: 32px;
+	width: 320px;
+}
+
+#expertise {
+
+}
+
+#footer {
+	color: #DB6912;
+	background: transparent;
+	position: fixed;
+	bottom: 0;
+}
