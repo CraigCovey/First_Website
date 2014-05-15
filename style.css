@@ -1,5 +1,5 @@
 
-html {
+#main {
 	background: url(http://theblackpoolgroup.com/wp-content/uploads/2012/12/photodune-3808418-san-francisco-m.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -40,12 +40,19 @@ body {
 li {
 	font-family: 'Open Sans', sans-serif;
 	display: inline;
+	text-align: center;
 }
 
 li a {
 	text-decoration: none;
 	color: white;
-	margin-right: 35px;
+	margin-right: 10px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+li a:hover {
+	opacity: 0.5;
 }
 
 #links {
@@ -60,6 +67,14 @@ li a {
 	position: relative;
 	top: -8px;
 }
+
+#github {
+	position: relative;
+	top: -5px;
+}
+
+/* -------- */
+
 
 .intro {
 	position: absolute;
@@ -93,16 +108,294 @@ p {
 #code {
 	color: #cc404e;
 	font-size: 32px;
-	width: 320px;
+	width: 390px;
 }
 
 #expertise {
-
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	background: rgba(0, 0, 0, 0.7);	
+	border: 1px solid #E4F7F7;
 }
 
-#footer {
+#expertise:hover {
+	border: 1px solid #8A2FB0;
+	color: #8A2FB0;
+}
+
+#expertise p {
+	background: none;
+	font-size: 20px;
+	color: #E4F7F7;
+	margin: 0;
+}
+
+#expertise p:hover {
+	color: #8A2FB0;
+}
+
+/* ------- */
+
+#soon {
+	text-align: center;
+	margin-top: 40px;
+	font-family: Calibri;
+}
+
+#free {
+	text-align: center;
+	background: none;
+	font-family: Calibri
+}
+
+
+
+#footer.index {
 	color: #DB6912;
 	background: transparent;
 	position: fixed;
 	bottom: 0;
+}
+
+/*-- About Me --*/
+
+#aboutme {
+	background: #585858;
+
+}
+
+#backgroundokc {
+	background: #666869 url(http://ericbloemers.com/wp-content/uploads/2013/05/oklahoma-sm-27.jpg) no-repeat center center fixed;
+
+}
+
+#filler {
+	height: 996px;
+	width: 100%;
+	text-align: center;
+}
+
+#aboutme-header {
+	background: transparent;
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	color: #666869;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#aboutme-p {
+	background: transparent;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#downarrow {
+	font-size: 25px;
+	color: white;
+	border: 1px solid white;
+	padding: 1px 4px 4px 4px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#me {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#self-taught {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #4ecc40;
+	text-align: center;
+}
+
+#info {
+	background: transparent;
+	text-align: justify;
+	color: white;
+	height: 100%;
+	width: 80%;
+	position: relative;
+	left: 200px;
+}
+
+#footer.aboutme {
+	background: transparent;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*-- Resume--*/
+
+#resume {
+	background: #585858;
+}
+
+#myresume {
+	text-align: center;
+}
+
+#background-resume {
+	background: #666869 url(http://ericbloemers.com/wp-content/uploads/2013/05/oklahoma-sm-17.jpg) no-repeat center center fixed;
+}
+
+#filler.resume {
+	height: 996;
+	text-align: center;
+}
+
+#header-resume {
+	background: transparent;
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	color: #666869;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#my-skillsets,
+#work-experience,
+#education {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #4ecc40;
+	text-align: center;
+}
+
+#teaching {
+	background: transparent;
+	text-align: center;
+	font-size: 15px;
+}
+
+#table {
+	background: #393B3C;
+	margin-right: auto;
+	margin-left: auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#dash {
+	width: 30px;
+	height: 5px;
+	background: #DBDADA;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#th1,
+#th2,
+#th3 {
+	border-right: 1px solid #DBDADA;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	width: 165px;
+	color: #455EC0;
+}
+
+#th4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	width: 165px;
+	color: #455EC0;
+}
+
+#r1c1,
+#r2c1,
+#r3c1,
+#r4c1,
+#r5c1,
+#r6c1 {
+	border-right: 1px solid #DBDADA;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	width: 165px;
+	text-align: center;
+}
+
+
+#r1c2,
+#r2c2,
+#r3c2,
+#r4c2,
+#r5c2,
+#r6c2 {
+	border-right: 1px solid #DBDADA;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	width: 165px;
+	text-align: center;
+}
+
+
+#r1c3,
+#r2c3,
+#r3c3,
+#r4c3,
+#r5c3,
+#r6c3 {
+	border-right: 1px solid #DBDADA;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	width: 165px;
+	text-align: center;	
+}
+
+
+#r1c4,
+#r2c4,
+#r3c4,
+#r4c4,
+#r5c4,
+#r6c4 {
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	width: 165px;
+	text-align: center;
+}
+
+
+#university {
+	background: transparent;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+}
+
+#oilgasresume {
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background: transparent;
+	text-decoration: none;
+	color: black;
+}
+#oilgasresume:hover {
+	text-decoration: underline;
+}
+
+
+#footer.resume {
+	background: transparent;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*-- Learn to Code--*/
+
+#footer.learn {
+	background: transparent;
+	margin-top: 50px;
+	text-align: center;
 }
